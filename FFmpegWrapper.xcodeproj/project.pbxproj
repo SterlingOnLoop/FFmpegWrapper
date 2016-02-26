@@ -610,10 +610,11 @@
 					"$(inherited)",
 					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
 					"$(SRCROOT)/Submodules/FFmpeg-iOS/dependencies/include",
+					"$(SRCROOT)/Submodules/FFmpeg-iOS/ffmpeg-ios-static-libs/include",
 				);
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
-					"/Users/chrisbal/FFmpegWrapper/Submodules/FFmpeg-iOS/dependencies/lib",
+					"$(SRCROOT)/Submodules/FFmpeg-iOS/ffmpeg-ios-static-libs/lib",
 				);
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -631,10 +632,11 @@
 					"$(inherited)",
 					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
 					"$(SRCROOT)/Submodules/FFmpeg-iOS/dependencies/include",
+					"$(SRCROOT)/Submodules/FFmpeg-iOS/ffmpeg-ios-static-libs/include",
 				);
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
-					"/Users/chrisbal/FFmpegWrapper/Submodules/FFmpeg-iOS/dependencies/lib",
+					"$(SRCROOT)/Submodules/FFmpeg-iOS/ffmpeg-ios-static-libs/lib",
 				);
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
